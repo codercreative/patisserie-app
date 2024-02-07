@@ -14,16 +14,24 @@
   </head>
   <body>
     <header>
-      <img
-        src="./images/gaby-dyson-unsplash.png"
-        alt="square strawberry cakes"
-        class="header-img"
-      />
-      <h1 class="header-title">Tia's Patisserie</h1>
+      <h1 class="header-title">Mia's Patisserie</h1>
     </header>
     <main>
       <section class="menu" id="menu">
         <!-- menu rendered here -->
+      </section>
+      <section class="cart hidden" id="cart">
+        <h2>Your Cart</h2>
+        <div class="cart-selection" id="cart-selection">
+          <!-- cart rendered here -->
+        </div>
+        <div class="total-price">
+          <p class="cart-title">Total price:</p>
+          <p class="cart-price" id="cart-price">$$</p>
+        </div>
+        <button class="complete-order-btn" id="complete-order-btn">
+          Complete order
+        </button>
       </section>
     </main>
     <script src="index.js" type="module"></script>
